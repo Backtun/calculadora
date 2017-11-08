@@ -4,6 +4,7 @@
 ''' </summary>
 Public Class Calculadora
 
+    'Variable en donde se mantendrá siempre el resultado
     Public Const operacion As Decimal = 0
     Dim ValoresPermitidos() As String = {"0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "+", "-", "*", "/"}
 
